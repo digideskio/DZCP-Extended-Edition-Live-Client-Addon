@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<info>
+	<addon_name>DZCP - Live!</addon_name>
+	<addon_autor>Hammermaps.de</addon_autor>
+	<addon_autor_url>http://www.hammermaps.de</addon_autor_url>
+	<addon_autor_mail>support@hammermaps.de</addon_autor_mail>
+	<addon_version>1.0</addon_version>
+	<addon_info>false</addon_info>
+	<addon_init_call>0</addon_init_call>
+	<addon_check_server_id>1</addon_check_server_id>
+</info>

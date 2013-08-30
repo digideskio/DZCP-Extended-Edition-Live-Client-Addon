@@ -1,0 +1,149 @@
+</table>
+<table cellspacing="1" class="mainContent" border="0">
+<form id="settings" name="settings" method="post" action="">
+[msg_box]
+<tr>
+ <td colspan="2" class="contentHead"><span class="fontBold">[head]</span></td>
+</tr>
+<tr>
+ <td style="vertical-align:top" class="contentMainSecond">Download-Optionen:</td>
+ <td class="contentMainFirst">
+  <table cellspacing="0" width="100%" border="0">
+   <tr>
+    <td>
+     <input type="radio" name="set_pic_get_mode" [pic_get_2] value="2" id="set_pic_get_mode_0" />
+     [text_0]
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <input type="radio" name="set_pic_get_mode" [pic_get_1] value="1" id="set_pic_get_mode_1" />
+     [text_1]
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <input type="radio" name="set_pic_get_mode" [pic_get_0] value="0" id="set_pic_get_mode_2" />
+     [text_2]
+    </td>
+   </tr>
+  </table>
+  </td>
+</tr> 
+<tr>
+ <td class="contentMainSecond">[max_templates]</td>
+ <td class="contentMainFirst">
+  <table width="100" border="0" cellspacing="0">
+   <tr>
+    <td width="1%">
+     <input name="max_template" class="inputField_dis_small" type="text" id="max_template" value="[max_template_out]" onfocus="this.className='inputField_en_small';" onblur="this.className='inputField_dis_small';">
+    </td>
+	<td width="99%"></td>
+   </tr>
+  </table>
+ </td>
+</tr>
+<tr>
+ <td class="contentMainSecond">[max_news]</td>
+ <td class="contentMainFirst">
+  <table width="100" border="0" cellspacing="0">
+   <tr>
+    <td width="1%">
+     <input name="max_ms_news" class="inputField_dis_small" type="text" id="max_ms_news" value="[max_ms_news_out]" onfocus="this.className='inputField_en_small';" onblur="this.className='inputField_dis_small';">
+    </td>
+	<td width="99%"></td>
+   </tr>
+  </table>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" class="contentHead"><span class="fontBold">[ftp_settings]</span></td>
+</tr>
+<tr>
+ <td class="contentMainSecond">[ftp_host]</td>
+ <td class="contentMainFirst">
+  <table width="100" border="0" cellspacing="0">
+   <tr>
+    <td width="1%">
+     <input name="ftp_host" type="text" id="ftp_host" value="[ftp_host_out]">
+    </td>
+	<td width="99%"></td>
+   </tr>
+  </table>
+ </td>
+</tr>
+<tr>
+ <td class="contentMainSecond">[ftp_pfad]</td>
+ <td class="contentMainFirst">
+  <table width="100" border="0" cellspacing="0">
+   <tr>
+    <td width="1%">
+     <input name="ftp_pfad" type="text" id="ftp_pfad" value="[ftp_pfad_out]">
+    </td>
+	<td width="99%"></td>
+   </tr>
+  </table>
+ </td>
+</tr>
+<tr>
+ <td class="contentMainSecond">[ftp_user]</td>
+ <td class="contentMainFirst">
+  <table width="100" border="0" cellspacing="0">
+   <tr>
+    <td width="1%">
+     <input name="ftp_user" type="text" id="ftp_user" value="[ftp_user_out]">
+    </td>
+	<td width="99%"></td>
+   </tr>
+  </table>
+ </td>
+</tr>
+<tr>
+ <td class="contentMainSecond">[ftp_pass]</td>
+ <td class="contentMainFirst">
+  <table width="100" border="0" cellspacing="0">
+   <tr>
+    <td width="1%">
+     <input name="ftp_pass" type="password" id="ftp_pass" value="[ftp_user_password]"></td>
+	<td width="99%"></td>
+   </tr>
+  </table>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" class="contentBottom">
+  <input type="submit" class="submit" name="update_settings" value="[button]" />
+  <input name="do" class="submit" type="hidden" id="do" value="update_settings" />
+ </td>
+</tr>
+</form>
+<form id="serials" name="serials" method="post" action="">
+<tr>
+ <td class="contentMainSecond">[vip_status]</td>
+ <td class="contentMainFirst">
+  <table width="100%" border="0" cellspacing="0">
+   <tr>
+    <td>[status]</td>
+   </tr>
+  </table>
+ </td>
+</tr>
+<tr>
+ <td class="contentMainSecond">[vip_serial]</td>
+ <td class="contentMainFirst">
+  <table width="100" border="0" cellspacing="0">
+   <tr>
+    <td width="1%">
+     <input name="serial" type="text" id="serial" size="40"></td>
+	<td width="99%"></td>
+   </tr>
+  </table>
+  </td>
+</tr>
+<tr>
+ <td colspan="2" class="contentBottom">
+  <input type="submit" class="submit" name="update_serial" value="[button1]" id="update_serial" />
+  <input name="do" class="submit" type="hidden" id="do" value="insert_serial" />
+ </td>
+</tr>
+</form>
