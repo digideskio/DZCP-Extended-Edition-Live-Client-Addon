@@ -9,6 +9,6 @@
 if(_adminMenu != 'true') exit();
 
 client_api_communicate::set_api_url('127.0.0.1',80);
-client_api_communicate::set_api_cryptkey('test1234');
+#client_api_communicate::set_api_cryptkey('test1234');
 
 $show = show($dir."/form_live", array());
