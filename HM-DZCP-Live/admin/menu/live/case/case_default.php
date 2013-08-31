@@ -16,6 +16,7 @@ if(!($news_array = Cache::check('live_news') ? Cache::get('live_news') : false))
 }
 
 $news_tb = '';
+if($news_tb!=false)
 foreach ($news_array as $news)
 { $news_tb .= show($dir."/form_live_news_loop",array('titel' => $news['title'], 'newsimage' => $news['newsimage'], 'date' => $news['date'], 'text' => $news['text'])); }
 $show .= show($dir."/form_live_news", array('show' => $news_tb));
