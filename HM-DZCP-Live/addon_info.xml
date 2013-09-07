@@ -7,5 +7,5 @@
 	<addon_version>1.0</addon_version>
 	<addon_info>false</addon_info>
 	<addon_init_call>0</addon_init_call>
-	<addon_check_server_id>1</addon_check_server_id>
+	<addon_build_rev>0001</addon_build_rev>
 </info>
