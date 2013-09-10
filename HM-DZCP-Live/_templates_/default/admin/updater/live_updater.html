@@ -1,26 +1,28 @@
 </table>
 <table cellspacing="1" class="mainContent" border="0">
     <tr>
-         <td class="contentHead"><span class="fontBold"><u>DZCP - Extended Edition:</u> <font color="#00FF00">Neue Updates sind verfügbar!</font></span></td>
+         <td class="contentHead"><span class="fontBold"><u>DZCP - Extended Edition:</u> <font color="#00FF00">[new_updates_core]</font></span></td>
     </tr>
-    <form id="update_from_dzcp" name="update_from_dzcp" method="post" action="[action]">
+    <form id="update_from_dzcp" name="update_from_dzcp" method="post" action="?admin=live&do=updater&install=core">
         [dzcp]
         <tr>
              <td class="contentBottom">
-                 <input type="submit" name="run_updater_dzcp" class="submit" id="run_updater_dzcp" value="[lang_live_install]" />
+                 <input type="submit" name="run_updater_dzcp" class="submit" [disabled_core] id="run_updater_dzcp" value="[lang_live_updater_install]" />
              </td>
         </tr>
     </form>
 </table>
 <table cellspacing="1" class="mainContent" border="0">
     <tr>
-         <td class="contentHead"><span class="fontBold"><u>DZCP - Addons:</u> <font color="#00FF00">Neue Updates sind verfügbar!</font></span></td>
+         <td class="contentHead"><span class="fontBold"><u>DZCP - Addons:</u> <font color="#00FF00">[new_updates_addons]</font></span></td>
     </tr>
-    <form id="update_from_addons" name="update_from_addons" method="post" action="[action]">
+   <form id="update_from_addons" name="update_from_addons" method="post" action="?admin=live&do=updater&install=addons">
         [addons]
         <tr>
             <td class="contentBottom">
-                <input type="submit" name="run_updater_addons" class="submit" disabled="disabled" id="run_updater_addons"  value="[lang_live_install]" />
+                <input type="submit" name="run_updater_addons" class="submit" [disabled_addons] id="run_updater_addons"  value="[lang_live_updater_install]" />
             </td>
         </tr>
     </form>
+</table>
+<table cellspacing="1" class="mainContent" border="0">
